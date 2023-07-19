@@ -29,9 +29,16 @@
         <div class="labelAndInputBox">
             <label for="passwordfield">Enter Password</label>
             <input type="password" name="password" id="passwordfield" placeholder="Enter Password">
-            <i class="fa-solid fa-circle-exclamation error"></i>
-            <i class="fa-solid fa-circle-check success"></i>
+            <i class="fa-solid fa-circle-exclamation error" id="passwordExclamation"></i>
+            <i class="fa-solid fa-circle-check success" id="passwordSuccess"></i>
             <p id="passwordErrorMessage"></p>
+        </div>
+        <div class="labelAndInputBox">
+            <label for="confirmpasswordfield">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmPasswordfield" placeholder="Confirm Password">
+            <i class="fa-solid fa-circle-exclamation error" id="confirmPasswordExclamation"></i>
+            <i class="fa-solid fa-circle-check success" id="confirmPasswordSuccess"></i>
+            <p id="confirmPasswordErrorMessage"></p>
         </div>
 
         <button id="button" type="submit">Create Account</button>
