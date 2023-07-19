@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form id="signupform">
+
+        <div class="labelAndInputBox">
+            <label for="fullnamefield">Enter Fullname</label>
+            <input type="text" name="fullname" id="fullnamefield" placeholder="Enter Full Name" autofocus>
+            <i class="fa-solid fa-circle-exclamation error" id="fullNameExclamation"></i>
+            <i class="fa-solid fa-circle-check success" id="fullNameSuccess"></i>
+            <p id="fullNameErrorMessage"></p>
+        </div>
+
+        <div class="labelAndInputBox">
+            <label for="emailfield">Enter Email Address</label>
+            <input type="email" name="email" id="emailfield" placeholder="Enter Email Address">
+            <i class="fa-solid fa-circle-exclamation error" id="emailExclamation"></i>
+            <i class="fa-solid fa-circle-check success" id="emailSuccess"></i>
+            <p id="emailErrorMessage"></p>
+        </div>
+
+        <div class="labelAndInputBox">
+            <label for="passwordfield">Enter Password</label>
+            <input type="password" name="password" id="passwordfield" placeholder="Enter Password">
+            <i class="fa-solid fa-circle-exclamation error"></i>
+            <i class="fa-solid fa-circle-check success"></i>
+            <p id="passwordErrorMessage"></p>
+        </div>
+
+        <button id="button" type="submit">Create Account</button>
+
+    </form>
+
+
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
